@@ -1,0 +1,13 @@
+[0m15:12:34.376815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f611621b7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f611676ab10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f611621b9d0>]}
+
+
+============================== 15:12:34.385068 | 7ce70ebd-aaed-4d46-a53f-fdcf09372bcf ==============================
+[0m15:12:34.385068 [info ] [MainThread]: Running with dbt=1.8.4
+[0m15:12:34.387182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/irul_jj/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init my_project', 'send_anonymous_usage_stats': 'True'}
+[0m15:12:34.434758 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/irul_jj/.dbt')}
+[0m15:12:34.448914 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:12:34.452992 [info ] [MainThread]: A project called my_project already exists here.
+[0m15:12:34.473583 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.2387726, "process_user_time": 4.22438, "process_kernel_time": 0.628744, "process_mem_max_rss": "88748", "process_in_blocks": "1760", "process_out_blocks": "8"}
+[0m15:12:34.479973 [debug] [MainThread]: Command `dbt init` succeeded at 15:12:34.479427 after 0.25 seconds
+[0m15:12:34.481926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61161fdf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61161fdf90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6119a50f10>]}
+[0m15:12:34.483487 [debug] [MainThread]: Flushing usage events
